@@ -1,0 +1,161 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+:root {
+    --color-primary: #EF9138;
+    --color-secondary: #FE7C01;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.anton {
+    font-weight: 400;
+    font-family: 'Anton', sans-serif;
+}
+
+.lato-thin {
+    font-weight: 100;
+    font-family: 'Lato', sans-serif;
+}
+
+.lato-light {
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+}
+
+.lato-regular {
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.lato-bold {
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.lato-bolder {
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-primaria {
+    background-color: var(--color-primary);
+}
+
+.primary {
+    color: var(--color-primary);
+}
+
+.secondary {
+    color: var(--color-secondary);
+}
+
+.bg-secondaria {
+    background-color: var(--color-secondary);
+}
+
+.black {
+    color: #000;
+}
+
+.verde {
+    color: #1EB007;
+}
+
+#link-topo {
+    position: fixed;
+    z-index: 1000000;
+    display: flex;
+    flex-direction: column;
+    right: 3rem;
+    top: 80%;
+}
+
+#link-fixo-topo {
+    background-color: var(--color-primary);
+    color: #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    text-decoration: none;
+    border-radius: 100%;
+}
+
+#link-fixo-topo:hover {
+    background-color: #FFEE00 !important;
+    transition: .4s;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #EF9138 !important;
+    transition: .4s;
+}
+ 
+#lista-cidades {
+    list-style: none;
+}
+
+#link-contatos a {
+    text-decoration: none;
+}
+
+#link-contatos a:hover {
+    opacity: .7;
+    transition: .4s;
+}
+
+#link-contatos p:hover {
+    opacity: .7;
+    transition: .4s;
+}
+
+#link-redes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#redes {
+    text-decoration: none;
+}
+
+#redes #link-redes:hover {
+    background-color: #FFEE00 !important;
+    transition: .4s;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    max-width: 15px;
+    height: 15px;
+}
+.carousel-inner > .carousel-item > img {
+    height: 510px; 
+  } 
+
+
+.navbar-nav {
+    flex-direction: row;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000000;
+}

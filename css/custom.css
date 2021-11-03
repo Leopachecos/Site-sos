@@ -145,11 +145,6 @@ html {
     max-width: 15px;
     height: 15px;
 }
-.carousel-inner > .carousel-item > img {
-    height: 510px; 
-  } 
-
-
 .navbar-nav {
     flex-direction: row;
 }
